@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+
+# Vite / Temp
+.vite/
+*.local
+
+# Editor / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

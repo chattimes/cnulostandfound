@@ -5,9 +5,14 @@ export default function Header({ onInfoClick }) {
   return (
     <header className="bg-[#006838] text-white px-4 py-3 sticky top-0 z-30 shadow-md">
       <div className="flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 rounded-lg bg-white/10 backdrop-blur-sm flex items-center justify-center border border-white/20 font-black text-emerald-200 text-sm">
-            CNU
+        <div className="flex items-center space-x-2.5">
+          {/* 전남대학교 공식 심볼 마크 */}
+          <div className="w-9 h-9 rounded-full bg-white p-1 flex items-center justify-center shadow-sm border border-emerald-300/30 shrink-0">
+            <img 
+              src="/cnu_symbol.svg" 
+              alt="전남대학교 공식 심볼 마크" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <div>
             <div className="flex items-center space-x-1.5">
